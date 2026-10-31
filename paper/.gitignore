@@ -1,0 +1,10 @@
+_template/
+*.aux
+*.log
+*.blg
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+submission/*.zip
+build.log

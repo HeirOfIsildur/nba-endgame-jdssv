@@ -1,0 +1,9 @@
+category,n_all,n_cohort,linked_rebound_is_first_event,n_after_buzzer
+defensive rebound,46,46,46,0
+live offensive rebound,40,39,39,1
+team rebound to the opponent (dead ball),22,21,21,1
+team rebound to the shooter (dead ball),15,12,12,3
+period ends before a rebound,4,0,0,4
+tip or shot without a logged rebound,2,2,0,0
+violation or turnover before a rebound,2,1,0,1
+total,131,121,118,10

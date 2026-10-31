@@ -1,0 +1,3 @@
+train,n_test,brier_model,brier_table,brier_const,mean_pred,mean_obs
+even seasons,8959,0.0584,0.0577,0.1975,0.5629,0.5375
+odd seasons,9413,0.0657,0.0654,0.1937,0.5648,0.5459

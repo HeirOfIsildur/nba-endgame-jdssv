@@ -1,0 +1,11 @@
+eras (blue / orange)         normal  33.6 | protanopia  24.7 | deuteranopia  31.7 | tritanopia  32.7
+start types BC / FC          normal  33.6 | protanopia  24.7 | deuteranopia  31.7 | tritanopia  32.7
+start types FC / LIVE        normal  27.6 | protanopia  12.6 | deuteranopia   9.2 | tritanopia  33.3
+start types LIVE / OREB      normal  22.9 | protanopia   9.1 | deuteranopia  16.5 | tritanopia  27.0
+start types BC / OREB        normal  37.5 | protanopia  31.5 | deuteranopia  39.0 | tritanopia  29.6
+start types BC / LIVE        normal  24.0 | protanopia  23.1 | deuteranopia  23.2 | tritanopia   9.6
+start types FC / OREB        normal  13.7 | protanopia  13.9 | deuteranopia   9.7 | tritanopia  12.1
+diverging poles              normal  24.3 | protanopia  16.8 | deuteranopia  20.6 | tritanopia  24.6
+diverging mid-arms           normal  32.3 | protanopia  21.6 | deuteranopia  27.3 | tritanopia  34.5
+contrast vs white: #104281 9.91, #1baf7a 2.82, #2a78d6 4.42, #8c1c1c 9.14, #e34948 3.95, #eb6834 3.20, #eda100 2.17
+worst simulated-CVD distance: 9.1 (target >= 8; identity is also carried by line style, position or labels in every figure)

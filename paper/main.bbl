@@ -1,0 +1,174 @@
+\begin{thebibliography}{}
+
+\bibitem[Annis, 2006]{Annis2006}
+Annis, D.~H. (2006).
+\newblock Optimal end-game strategy in basketball.
+\newblock {\em Journal of Quantitative Analysis in Sports}, 2(2), DOI:
+  \href{https://dx.doi.org/10.2202/1559-0410.1030}{\ttfamily
+  10.2202/1559-0410.1030}.
+
+\bibitem[Bellman, 1957]{Bellman1957}
+Bellman, R. (1957).
+\newblock {\em Dynamic Programming}.
+\newblock Princeton University Press, Princeton.
+
+\bibitem[Crameri et~al., 2020]{Crameri2020}
+Crameri, F., Shephard, G.~E., and Heron, P.~J. (2020).
+\newblock The misuse of colour in science communication.
+\newblock {\em Nature Communications}, 11:5444, DOI:
+  \href{https://dx.doi.org/10.1038/s41467-020-19160-7}{\ttfamily
+  10.1038/s41467-020-19160-7}.
+
+\bibitem[Efron and Tibshirani, 1993]{EfronTibshirani1993}
+Efron, B. and Tibshirani, R.~J. (1993).
+\newblock {\em An Introduction to the Bootstrap}.
+\newblock Chapman \& Hall, New York, DOI:
+  \href{https://dx.doi.org/10.1201/9780429246593}{\ttfamily
+  10.1201/9780429246593}.
+
+\bibitem[Gibbs et~al., 2022]{Gibbs2022}
+Gibbs, C.~P., Elmore, R., and Fosdick, B.~K. (2022).
+\newblock The causal effect of a timeout at stopping an opposing run in the
+  {NBA}.
+\newblock {\em The Annals of Applied Statistics}, 16(3):1359--1379, DOI:
+  \href{https://dx.doi.org/10.1214/21-AOAS1545}{\ttfamily 10.1214/21-AOAS1545}.
+
+\bibitem[Harris et~al., 2020]{numpy}
+Harris, C.~R., Millman, K.~J., {van der Walt}, S.~J., et~al. (2020).
+\newblock Array programming with \pkg{NumPy}.
+\newblock {\em Nature}, 585:357--362, DOI:
+  \href{https://dx.doi.org/10.1038/s41586-020-2649-2}{\ttfamily
+  10.1038/s41586-020-2649-2}.
+
+\bibitem[Hunter, 2007]{matplotlib}
+Hunter, J.~D. (2007).
+\newblock \pkg{Matplotlib}: A {2D} graphics environment.
+\newblock {\em Computing in Science \& Engineering}, 9(3):90--95, DOI:
+  \href{https://dx.doi.org/10.1109/MCSE.2007.55}{\ttfamily
+  10.1109/MCSE.2007.55}.
+
+\bibitem[Kenter, 2015]{Kenter2015}
+Kenter, F. H.~J. (2015).
+\newblock An analysis of the basketball endgame: When to foul when trailing and
+  leading.
+\newblock In {\em MIT Sloan Sports Analytics Conference}.
+  \url{https://www.stat.berkeley.edu/~aldous/157/Papers/kenter.pdf}.
+
+\bibitem[Lam et~al., 2015]{numba}
+Lam, S.~K., Pitrou, A., and Seibert, S. (2015).
+\newblock \pkg{Numba}: A {LLVM}-based \proglang{Python} {JIT} compiler.
+\newblock In {\em Proceedings of the Second Workshop on the {LLVM} Compiler
+  Infrastructure in {HPC}}, pages 1--6. DOI:
+  \href{https://dx.doi.org/10.1145/2833157.2833162}{\ttfamily
+  10.1145/2833157.2833162}.
+
+\bibitem[Machado et~al., 2009]{Machado2009}
+Machado, G.~M., Oliveira, M.~M., and Fernandes, L. A.~F. (2009).
+\newblock A physiologically-based model for simulation of color vision
+  deficiency.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  15(6):1291--1298, DOI:
+  \href{https://dx.doi.org/10.1109/TVCG.2009.113}{\ttfamily
+  10.1109/TVCG.2009.113}.
+
+\bibitem[McFarlane, 2019]{McFarlane2019}
+McFarlane, P. (2019).
+\newblock Evaluating {NBA} end-of-game decision-making.
+\newblock {\em Journal of Sports Analytics}, 5(1):17--22, DOI:
+  \href{https://dx.doi.org/10.3233/JSA-180231}{\ttfamily 10.3233/JSA-180231}.
+
+\bibitem[McKinney, 2010]{pandas}
+McKinney, W. (2010).
+\newblock Data structures for statistical computing in \proglang{Python}.
+\newblock In {\em Proceedings of the 9th \proglang{Python} in Science
+  Conference}, pages 56--61. DOI:
+  \href{https://dx.doi.org/10.25080/Majora-92bf1922-00a}{\ttfamily
+  10.25080/Majora-92bf1922-00a}.
+
+\bibitem[{National Basketball Association}, 2025]{nbarules}
+{National Basketball Association} (2025).
+\newblock Official rules of the {National Basketball Association}: Rule no.~5
+  ({Scoring} and {Timing}), rule no.~7 (24-second clock) and rule no.~12
+  ({Fouls} and {Penalties}).
+\newblock \url{https://official.nba.com/rulebook/}.
+\newblock Accessed 31 October 2026.
+
+\bibitem[Owen and Eckles, 2012]{OwenEckles2012}
+Owen, A.~B. and Eckles, D. (2012).
+\newblock Bootstrapping data arrays of arbitrary order.
+\newblock {\em The Annals of Applied Statistics}, 6(3):895--927, DOI:
+  \href{https://dx.doi.org/10.1214/12-AOAS547}{\ttfamily 10.1214/12-AOAS547}.
+
+\bibitem[Romer, 2006]{Romer2006}
+Romer, D. (2006).
+\newblock Do firms maximize? {E}vidence from professional football.
+\newblock {\em Journal of Political Economy}, 114(2):340--365, DOI:
+  \href{https://dx.doi.org/10.1086/501171}{\ttfamily 10.1086/501171}.
+
+\bibitem[Seabold and Perktold, 2010]{statsmodels}
+Seabold, S. and Perktold, J. (2010).
+\newblock \pkg{statsmodels}: Econometric and statistical modeling with
+  \proglang{Python}.
+\newblock In {\em Proceedings of the 9th \proglang{Python} in Science
+  Conference}, pages 92--96. DOI:
+  \href{https://dx.doi.org/10.25080/Majora-92bf1922-011}{\ttfamily
+  10.25080/Majora-92bf1922-011}.
+
+\bibitem[Secilmis et~al., 2025]{Secilmis2025}
+Secilmis, L., Secilmis, T., Jantschgi, S., and Nax, H.~H. (2025).
+\newblock Decisions in the basketball endgame: A downside of the three-point
+  revolution.
+\newblock {\em Games}, 16(6):64, DOI:
+  \href{https://dx.doi.org/10.3390/g16060064}{\ttfamily 10.3390/g16060064}.
+
+\bibitem[Shapley, 1953]{Shapley1953}
+Shapley, L.~S. (1953).
+\newblock Stochastic games.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  39(10):1095--1100, DOI:
+  \href{https://dx.doi.org/10.1073/pnas.39.10.1095}{\ttfamily
+  10.1073/pnas.39.10.1095}.
+
+\bibitem[{shufinskiy}, 2026]{nbadata}
+{shufinskiy} (2026).
+\newblock \pkg{nba\_data}: Play-by-play datasets of the {NBA}.
+\newblock GitHub repository, \url{https://github.com/shufinskiy/nba_data}.
+\newblock Accessed 31 October 2026.
+
+\bibitem[Skinner and Goldman, 2015]{SkinnerGoldman2015}
+Skinner, B. and Goldman, M. (2015).
+\newblock Optimal strategy in basketball.
+\newblock arXiv:1512.05652, DOI:
+  \href{https://dx.doi.org/10.48550/arXiv.1512.05652}{\ttfamily
+  10.48550/arXiv.1512.05652}.
+
+\bibitem[{Van Rossum} and Drake, 2009]{python}
+{Van Rossum}, G. and Drake, F.~L. (2009).
+\newblock {\em \proglang{Python} 3 Reference Manual}.
+\newblock CreateSpace, Scotts Valley.
+
+\bibitem[Wilke, 2019]{Wilke2019}
+Wilke, C.~O. (2019).
+\newblock {\em Fundamentals of Data Visualization}.
+\newblock O'Reilly Media, Sebastopol.
+
+\bibitem[{Wolfram Research, Inc.}, 2026]{mathematica}
+{Wolfram Research, Inc.} (2026).
+\newblock {\em \proglang{Mathematica}, Version 15.0}.
+\newblock Wolfram Research, Inc., Champaign, IL.
+
+\bibitem[Wood, 2017]{Wood2017}
+Wood, S.~N. (2017).
+\newblock {\em Generalized Additive Models: An Introduction with \proglang{R}}.
+\newblock Chapman \& Hall/CRC, Boca Raton, 2nd edition, DOI:
+  \href{https://dx.doi.org/10.1201/9781315370279}{\ttfamily
+  10.1201/9781315370279}.
+
+\bibitem[Zapata-Hall, 2024]{ZapataHall2024}
+Zapata-Hall, J. (2024).
+\newblock College basketball: An in-depth study of the ``foul up 3'' dilemma.
+\newblock arXiv:2402.13289, DOI:
+  \href{https://dx.doi.org/10.48550/arXiv.2402.13289}{\ttfamily
+  10.48550/arXiv.2402.13289}.
+
+\end{thebibliography}

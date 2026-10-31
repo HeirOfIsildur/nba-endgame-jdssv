@@ -1,0 +1,25 @@
+{
+ "local_platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+ "python": "3.13.17",
+ "replicates": [
+  {
+   "replicate": 0,
+   "fingerprint_local": "0997465db379f140",
+   "fingerprint_deposited": "0997465db379f140",
+   "max_abs_diff": 3.304023721284466e-13
+  },
+  {
+   "replicate": 517,
+   "fingerprint_local": "0997465db379f140",
+   "fingerprint_deposited": "0997465db379f140",
+   "max_abs_diff": 4.671818487622659e-13
+  },
+  {
+   "replicate": 999,
+   "fingerprint_local": "0997465db379f140",
+   "fingerprint_deposited": "0997465db379f140",
+   "max_abs_diff": 2.220446049250313e-13
+  }
+ ],
+ "max_abs_diff": 4.671818487622659e-13
+}

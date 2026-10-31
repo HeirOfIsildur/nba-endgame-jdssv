@@ -1,0 +1,5 @@
+host=uk-d6-04.hpc.troja.mff.cuni.cz job=38351908 task=39 cores=8
+Model name:                              AMD EPYC 9755 128-Core Processor
+Rocky Linux release 9.2 (Blue Onyx)
+commit=5ac039de64eb176ca716c5e63605d563351d5d94
+3.13.11 2.5.4 3.0.6 0.15.0 0.68.0

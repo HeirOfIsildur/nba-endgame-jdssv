@@ -1,0 +1,214 @@
+bootstrap replicates: 1000 (game-clustered Poisson; map bands are 5-95%)
+
+== inputs (95% bootstrap CI) ==
+eta_dm         0.324 [0.212, 0.442]
+eta_fg         0.095 [0.090, 0.100]
+eta_ft         0.038 [0.033, 0.043]
+foul_el_BC     2.063 [2.023, 2.101]
+foul_el_FC     1.683 [1.638, 1.730]
+foul_el_LIVE   1.326 [1.289, 1.362]
+foul_el_OREB   1.356 [1.250, 1.459]
+p_sf3          0.081 [0.056, 0.110]
+p_sfoul        0.066 [0.061, 0.071]
+p_tov          0.089 [0.083, 0.094]
+q              0.797 [0.796, 0.798]
+reb_time       1.673 [1.657, 1.689]
+reb_time_ft    0.693 [0.564, 0.805]
+reb_time_ft_ord 1.085 [1.066, 1.105]
+rho_dm         0.438 [0.350, 0.531]
+rho_dm_2000_16 0.417 [0.298, 0.538]
+rho_dm_2017_25 0.469 [0.333, 0.617]
+rho_dm_down2   0.494 [0.386, 0.621]
+rho_dm_down3   0.294 [0.143, 0.429]
+rho_dm_live    0.339 [0.257, 0.426]
+rho_dm_mix     0.554 [0.433, 0.691]
+rho_fg         0.341 [0.334, 0.349]
+rho_ft         0.153 [0.145, 0.161]
+th_dm          0.226 [0.123, 0.339]
+th_fg          0.209 [0.198, 0.220]
+th_ft          0.169 [0.147, 0.190]
+to_cost_live   0.587 [0.555, 0.626]
+w_dm           0.711 [0.671, 0.742]
+P(made 3 | BC  ) at 2/4/8/16 s: 0.021 [0.017, 0.025], 0.069 [0.058, 0.079], 0.161 [0.138, 0.182], 0.190 [0.163, 0.216];  P(made 2) at 4/8 s: 0.234, 0.312
+P(made 3 | FC  ) at 2/4/8/16 s: 0.103 [0.087, 0.119], 0.153 [0.134, 0.172], 0.191 [0.172, 0.210], 0.208 [0.181, 0.235];  P(made 2) at 4/8 s: 0.210, 0.287
+P(made 3 | LIVE) at 2/4/8/16 s: 0.034 [0.029, 0.040], 0.079 [0.068, 0.092], 0.182 [0.160, 0.207], 0.205 [0.179, 0.232];  P(made 2) at 4/8 s: 0.283, 0.351
+P(made 3 | OREB) at 2/4/8/16 s: 0.122 [0.100, 0.146], 0.152 [0.128, 0.180], 0.201 [0.168, 0.235], 0.220 [0.183, 0.260];  P(made 2) at 4/8 s: 0.294, 0.357
+
+== leader up 3: gain from fouling at once (pp), fitted [5-95%] vs hand-set ==
+backcourt inbound, trailer no TO: t=3: -1.4 [-3.1, -0.5]; t=5: -1.6 [-3.1, -0.2]; t=8: -0.5 [-2.4, +1.3]; t=12: -0.7 [-2.6, +1.0]; t=18: -2.3 [-3.9, -1.7]
+   fouling optimal (point estimate) for t in 2.2..2.8 s; sign changes at [2.2, 2.9]
+frontcourt after TO: t=3: +1.8 [+0.3, +3.1]; t=5: +1.5 [-0.2, +3.0]; t=8: +0.8 [-1.1, +2.5]; t=12: -0.5 [-2.2, +1.2]; t=18: -1.8 [-3.4, -0.3]
+   fouling optimal (point estimate) for t in 1.8..9.7 s; sign changes at [1.8, 9.8]
+hand-set: t=3: +11.7; t=5: +13.5; t=8: +7.9; t=12: +5.4; t=18: +1.8
+up 1, backcourt: worst / best gain from fouling over 3-24 s: -64.5 / -7.4
+up 2, backcourt: worst / best gain from fouling over 3-24 s: -21.5 / +0.3
+with a foul to give (side-out), up 3 backcourt: t=3: +2.0; t=5: +2.6; t=8: +2.2; t=12: +0.6; t=18: -0.2
+
+== last FT: gain from missing on purpose (pp), opponent no TO ==
+lead -2, shooter TOs 0: t=1: +4.5 [+3.7, +6.1]; t=2: +6.0 [+4.8, +7.3]; t=3: +5.6 [+4.2, +7.3]; t=5: +5.1 [+3.5, +7.3]; t=8: +2.1 [+0.2, +3.9]; t=12: -0.6 [-1.8, +1.3];  sign changes at [0.8, 11.1]
+lead -2, shooter TOs 1: t=1: +4.5 [+3.7, +6.1]; t=2: +6.0 [+4.8, +7.3]; t=3: +4.8 [+3.1, +6.6]; t=5: +2.4 [+1.0, +4.6]; t=8: +0.5 [-0.7, +2.2]; t=12: -0.7 [-1.8, +1.1];  sign changes at [0.8, 10.0]
+   hand-set lead -2: t=1: +0.0; t=2: +1.0; t=3: +1.9; t=5: -1.5; t=8: -6.2; t=12: -6.4
+lead -3, shooter TOs 0: t=1: +2.0 [+1.2, +2.7]; t=2: +2.8 [+0.9, +3.3]; t=3: +1.6 [+0.6, +2.7]; t=5: +2.2 [+1.4, +3.4]; t=8: +1.9 [+0.7, +3.2]; t=12: +1.4 [+0.5, +2.4];  sign changes at [0.8, 18.8]
+lead -3, shooter TOs 1: t=1: +2.0 [+1.2, +2.7]; t=2: +2.8 [+0.9, +3.3]; t=3: +1.4 [+0.4, +2.5]; t=5: +1.8 [+1.0, +2.9]; t=8: +1.5 [+0.6, +2.5]; t=12: +1.1 [+0.2, +1.9];  sign changes at [0.8, 18.8]
+   hand-set lead -3: t=1: +0.0; t=2: +0.4; t=3: +0.9; t=5: -1.4; t=8: -1.8; t=12: -2.6
+lead -1, shooter TOs 0: t=1: -27.8 [-29.9, -25.7]; t=2: -25.3 [-27.4, -23.1]; t=3: -22.8 [-25.0, -20.5]; t=5: -11.8 [-14.3, -9.2]; t=8: -5.0 [-7.6, -2.4]; t=12: -0.6 [-3.5, +1.3];  sign changes at []
+lead -1, shooter TOs 1: t=1: -27.8 [-29.9, -25.7]; t=2: -25.3 [-27.4, -23.1]; t=3: -22.3 [-24.3, -20.2]; t=5: -10.8 [-13.0, -8.4]; t=8: -4.1 [-6.8, -1.7]; t=12: -1.0 [-3.3, +1.1];  sign changes at []
+   hand-set lead -1: t=1: -34.2; t=2: -29.7; t=3: -21.4; t=5: -8.7; t=8: -11.9; t=12: -11.0
+lead +1, shooter TOs 0: t=1: +0.4 [-0.1, +0.9]; t=2: +2.2 [+1.5, +2.9]; t=3: +2.6 [+1.7, +3.6]; t=5: -2.7 [-4.9, -0.1]; t=8: -2.8 [-5.5, -0.2]; t=12: -2.8 [-5.5, -0.6];  sign changes at [3.4, 4.1, 4.8]
+lead +1, shooter TOs 1: t=1: +0.4 [-0.1, +0.9]; t=2: +2.2 [+1.5, +2.9]; t=3: +2.6 [+1.7, +3.6]; t=5: -2.7 [-4.9, -0.0]; t=8: -2.8 [-5.5, -0.2]; t=12: -2.7 [-5.5, -0.6];  sign changes at [3.4, 4.1, 4.8]
+   hand-set lead +1: t=1: +7.6; t=2: +6.3; t=3: +7.0; t=5: -16.4; t=8: -10.8; t=12: -11.7
+break-even OREB rate rho*, down 2 / down 3, shooter no TO: t=3.5: 0.13 / 0.13; t=5: 0.17 / 0.15; t=8: 0.33 / 0.25; t=12: 0.47 / 0.32
+
+== value of holding one timeout (pp), dead ball, backcourt ==
+down 0: max 7.2 at t=2.7; at 2/5/10/20 s: 7.1, 0.0, 0.0, 1.6
+down 1: max 13.6 at t=2.7; at 2/5/10/20 s: 13.4, 0.0, 0.0, 0.5
+down 2: max 8.9 at t=3.0; at 2/5/10/20 s: 8.2, 6.4, 1.1, 1.6
+down 3: max 4.1 at t=2.8; at 2/5/10/20 s: 0.0, 2.1, 0.6, 0.9
+
+== observed behaviour ==
+up 3, s=0, pre: deliberate-foul rate at 3-12 s = 0.109 (n=46)
+up 3, s=0, post: deliberate-foul rate at 3-12 s = 0.296 (n=135)
+up 1-2, s=0, pre: foul rate (background) = 0.000 (n=42)
+up 1-2, s=0, post: foul rate (background) = 0.016 (n=128)
+up 3, s=1, pre: deliberate-foul rate at 3-12 s = 0.149 (n=201)
+up 3, s=1, post: deliberate-foul rate at 3-12 s = 0.226 (n=217)
+up 1-2, s=1, pre: foul rate (background) = 0.000 (n=382)
+up 1-2, s=1, post: foul rate (background) = 0.025 (n=441)
+down 2 last FT <= 5 s, pre: miss 0.543 vs expected 0.218 (n=81)
+down 2 last FT <= 5 s, post: miss 0.779 vs expected 0.190 (n=95)
+down 3 last FT <= 5 s, pre: miss 0.656 vs expected 0.253 (n=32)
+down 3 last FT <= 5 s, post: miss 0.743 vs expected 0.186 (n=35)
+make vs miss outcome (down 2-3, 0.5 < t <= 5 s), by era and shooter timeouts:
+ era  lead_b  tol  miss  size  mean
+post    -3.0    0     0     5 0.000
+post    -3.0    0     1    22 0.000
+post    -3.0    1     0     4 0.000
+post    -3.0    1     1     3 0.000
+post    -2.0    0     0    16 0.000
+post    -2.0    0     1    66 0.061
+post    -2.0    1     0     5 0.000
+post    -2.0    1     1     6 0.333
+ pre    -3.0    0     1     6 0.000
+ pre    -3.0    1     0    10 0.000
+ pre    -3.0    1     1    15 0.067
+ pre    -2.0    0     0     6 0.000
+ pre    -2.0    0     1    14 0.000
+ pre    -2.0    1     0    31 0.097
+ pre    -2.0    1     1    30 0.033
+trailer (down 1-3, <= 24 s) with no timeout left: pre 0.105, post 0.240
+  by era (paper uses 2006-16 vs 2017-25): 2000-05 0.198 (n=2017); 2006-16 0.053 (n=3614); 2017-25 0.240 (n=2761)
+
+sample sizes: games 31238, phases 677135, last FTs 46995, curve sample Q1-3 157502 / pressure 13990, deliberate-miss proxy misses 121, ordinary misses 7665
+
+== facts quoted in the paper (referee round 31 Oct 2026) ==
+two-point attempts allowed after BC: from 4.1 s
+two-point attempts allowed after LIVE: from 2.7 s
+two-point attempts allowed after FC: from 0.1 s
+two-point attempts allowed after OREB: from 0.1 s
+team-games with > 2 timeouts in the last 3:00 of Q4: 11.1-15.2% per season before 2017-18, 0.2-0.8% since
+before 2017-18: team-games with 3 full timeouts in the last 2:00 of Q4: 30 of 40978
+up 1, BC: foul gain min -66.56 at 2.2 s, max -7.36 at 24.0 s
+up 1, FC: foul gain min -54.17 at 1.8 s, max -7.76 at 18.1 s
+up 1, BC + foul to give: foul gain min -0.15 at 19.3 s, max +20.64 at 4.5 s
+up 2, BC: foul gain min -22.61 at 2.2 s, max +0.34 at 13.9 s
+up 2, FC: foul gain min -15.59 at 1.8 s, max +0.78 at 24.0 s
+up 2, BC + foul to give: foul gain min -0.65 at 19.6 s, max +7.22 at 4.1 s
+up 3, BC: foul gain min -2.82 at 20.8 s, max +1.69 at 2.8 s
+up 3, FC: foul gain min -1.98 at 19.5 s, max +5.57 at 2.4 s
+up 3, BC + foul to give: foul gain min -0.25 at 19.2 s, max +4.32 at 4.9 s
+up 3 at 3-5 s: fitted FC +1.51 to +2.12
+up 3, BC: share of 3-13 s where the 90% band of the foul gain includes 0 (hatched): 0.71; hatched runs 2.7-2.9 s, 5.9-13.7 s
+value of a timeout, down 0: max beyond 10 s 1.67
+value of a timeout, down 1: max beyond 10 s 0.58
+value of a timeout, down 2: max beyond 10 s 1.79
+value of a timeout, down 3: max beyond 10 s 0.95
+up 3 at 3-5 s: fitted BC -2.21 to -1.39; hand-set +11.26 to +13.54
+last FT lead -2, fitted, no timeouts: miss strictly better on 0.8-11.0 s
+last FT lead -2, hand-set, no timeouts: miss strictly better on 1.1-3.0 s
+last FT lead +1, fitted, no timeouts: miss strictly better on 0.1-3.3 s, 4.1-4.7 s
+last FT lead +1, hand-set, no timeouts: miss strictly better on 0.1-3.3 s
+last FT down 2, shooter TOs 0: gain >= 1 pp up to 9.7 s; last positive at 11.0 s
+last FT down 2, shooter TOs 1: gain >= 1 pp up to 6.8 s; last positive at 9.9 s
+down 2, no TO: raw rho_dm (0.438) exceeds rho* on 1.1-11.0 s
+down 2, no TO: rho_dm lower 95% bound (0.350) exceeds rho* on 1.1-8.5 s
+down 2, no TO: hand-set 0.13 (0.130) exceeds rho* on 1.1-3.8 s, 4.0-4.0 s, 4.3-4.9 s
+state space: 241 times x 25 leads x 6 start types x 3^2 timeouts x 2^2 fouls to give
+shot clock after an OREB: 14.0 s; after a live timeout that follows it: 13.4 s (on the grid 134 steps)
+
+== sensitivity (results/sensitivity.csv) ==
+variants (excluding the main estimate): 27
+foul_up3_FC_3: all variants +0.12 to +4.79; excluding rho_dm = ordinary +0.12 to +3.73
+foul_up3_BC_3: all variants -2.80 to +1.93; excluding rho_dm = ordinary -2.80 to +1.93
+ft_down2_2: all variants +1.82 to +8.17; excluding rho_dm = ordinary +3.91 to +8.17
+ft_down2_5: all variants -0.39 to +7.86; excluding rho_dm = ordinary +2.17 to +7.86
+timeout_value_down1_max: all variants +13.08 to +24.09; excluding rho_dm = ordinary +13.08 to +24.09
+timeout_value_down1_max excluding the time-used curves: 13.08 to 14.19
+rho_dm = ordinary: FT gain down 2 at 2 s +1.82; last positive at 4.9 s
+  main estimate: foul FC3 +1.84, BC3 -1.40, FT2 +6.03, FT5 +5.14, >=1pp until 9.7, TO 13.56
+  deliberate-miss OREB at its lower 95% bound (0.35): foul FC3 +2.75, BC3 -0.73, FT2 +4.72, FT5 +3.31, >=1pp until 6.4, TO 13.56
+  deliberate-miss OREB mixture-corrected (0.55): foul FC3 +0.63, BC3 -2.29, FT2 +7.74, FT5 +7.86, >=1pp until 18.7, TO 13.56
+  deliberate-miss OREB = ordinary (0.15): foul FC3 +4.79, BC3 +0.77, FT2 +1.82, FT5 -0.39, >=1pp until 2.8, TO 13.56
+  fouls take 0.5 s longer: foul FC3 +3.73, BC3 +1.93, FT2 +6.03, FT5 +5.70, >=1pp until 10.1, TO 13.56
+  fouls take 0.5 s less: foul FC3 +1.47, BC3 -2.80, FT2 +6.03, FT5 +4.22, >=1pp until 9.2, TO 13.56
+  offence beats a committed foul with probability 0.1: foul FC3 +1.84, BC3 -1.40, FT2 +6.03, FT5 +5.14, >=1pp until 9.7, TO 13.56
+  offence beats a committed foul with probability 0.2: foul FC3 +1.84, BC3 -1.40, FT2 +6.03, FT5 +5.15, >=1pp until 9.7, TO 13.56
+  offence always beats a committed foul (probability 1, an extreme): foul FC3 +1.84, BC3 -1.40, FT2 +6.03, FT5 +5.20, >=1pp until 9.7, TO 13.56
+  two-point threshold 15%: foul FC3 +1.84, BC3 -1.40, FT2 +6.03, FT5 +3.79, >=1pp until 9.7, TO 13.56
+  two-point threshold 35%: foul FC3 +1.84, BC3 -1.40, FT2 +6.03, FT5 +5.14, >=1pp until 9.7, TO 13.56
+  no shot-clock reset after OREB: foul FC3 +1.84, BC3 -1.40, FT2 +6.03, FT5 +5.14, >=1pp until 9.7, TO 13.56
+  score-neutral shot curves (no pressure shift): foul FC3 +1.15, BC3 -1.33, FT2 +7.03, FT5 +6.24, >=1pp until 9.0, TO 13.08
+  3-FT risk at its lower bound (0.06): foul FC3 +2.35, BC3 -0.87, FT2 +6.03, FT5 +5.12, >=1pp until 9.7, TO 13.56
+  3-FT risk at its upper bound (0.11): foul FC3 +1.22, BC3 -2.03, FT2 +6.03, FT5 +5.16, >=1pp until 9.7, TO 13.56
+  OREB on missed FG at 0.40: foul FC3 +1.84, BC3 -1.40, FT2 +6.03, FT5 +5.14, >=1pp until 9.7, TO 13.56
+  deliberate-miss OREB: live rebounds only (0.34): foul FC3 +2.47, BC3 -0.99, FT2 +4.85, FT5 +3.06, >=1pp until 6.1, TO 13.56
+  FT team rebounds (both teams) as live rebounds: foul FC3 +1.32, BC3 -1.85, FT2 +6.37, FT5 +5.16, >=1pp until 9.8, TO 13.56
+  deliberate-miss OREB from down-3 trips only (0.29): foul FC3 +3.33, BC3 -0.31, FT2 +3.91, FT5 +2.17, >=1pp until 5.8, TO 13.56
+  one FT rebound time for all misses, the deliberate one (0.69 s): foul FC3 +1.83, BC3 -1.43, FT2 +5.99, FT5 +4.94, >=1pp until 9.6, TO 13.56
+  one FT rebound time for all misses, the ordinary one (1.08 s): foul FC3 +3.04, BC3 +1.93, FT2 +5.49, FT5 +5.80, >=1pp until 9.5, TO 13.56
+  rebound curves include team-rebound starts; FG team rebounds live (previous treatment): foul FC3 +3.06, BC3 -0.19, FT2 +5.28, FT5 +4.92, >=1pp until 9.6, TO 13.54
+  deliberate-miss FT rebound delay: empirical distribution of the proxy: foul FC3 +2.64, BC3 -0.80, FT2 +5.63, FT5 +4.71, >=1pp until 9.6, TO 13.56
+  deliberate-miss FT rebound delay: distribution of ordinary misses (not clock-selected): foul FC3 +3.43, BC3 -0.06, FT2 +4.69, FT5 +4.76, >=1pp until 9.4, TO 13.56
+  FG% from forced shots only (identification): foul FC3 +1.16, BC3 -1.51, FT2 +5.48, FT5 +5.02, >=1pp until 10.8, TO 14.19
+  FG% by time used, all shots (identification): foul FC3 +2.39, BC3 -2.76, FT2 +7.60, FT5 +6.38, >=1pp until 7.8, TO 24.09
+  all inputs from 2000-01 to 2016-17 only: foul FC3 +2.30, BC3 -0.82, FT2 +5.42, FT5 +4.74, >=1pp until 9.0, TO 13.89
+  all inputs from 2017-18 to 2025-26 only: foul FC3 +0.12, BC3 +1.22, FT2 +8.17, FT5 +7.15, >=1pp until 10.6, TO 13.31
+held-out calibration (Brier model / table): train even seasons: 0.058 / 0.058; train odd seasons: 0.066 / 0.065
+
+== identification check (results/ident_check.csv): FG% unforced (>= 4 s left) minus forced (<= 1 s left) ==
+2-point: 15 cells, difference +15 to +54 pp (median +25); cells with 90% interval above 0: 15
+3-point: 15 cells, difference -6 to +35 pp (median +10); cells with 90% interval above 0: 11
+forced shots 43212, unforced 11721
+
+== deliberate-miss proxy audit (results/dm_linkage.csv, dm_timing.csv, dm_transport.csv) ==
+  defensive rebound: 46 (cohort 46; linked rebound is the first event 46; after the buzzer 0)
+  live offensive rebound: 40 (cohort 39; linked rebound is the first event 39; after the buzzer 1)
+  team rebound to the opponent (dead ball): 22 (cohort 21; linked rebound is the first event 21; after the buzzer 1)
+  team rebound to the shooter (dead ball): 15 (cohort 12; linked rebound is the first event 12; after the buzzer 3)
+  period ends before a rebound: 4 (cohort 0; linked rebound is the first event 0; after the buzzer 4)
+  tip or shot without a logged rebound: 2 (cohort 2; linked rebound is the first event 0; after the buzzer 0)
+  violation or turnover before a rebound: 2 (cohort 1; linked rebound is the first event 0; after the buzzer 1)
+  total: 131 (cohort 121; linked rebound is the first event 118; after the buzzer 10)
+  rebound starts in the unfiltered curve sample, dreb after a missed FG: 46938, team rebounds 2755 (5.9%; excluded from the curves)
+  rebound starts in the unfiltered curve sample, dreb after a missed FT: 5090, team rebounds 172 (3.4%; excluded from the curves)
+  rebound starts in the unfiltered curve sample, oreb after a missed FG: 34716, team rebounds 15152 (43.6%; excluded from the curves)
+  rebound starts in the unfiltered curve sample, oreb after a missed FT: 1099, team rebounds 224 (20.4%; excluded from the curves)
+  FT to rebound, deliberate-miss proxy: median 0.6 s, mean 0.69, <= 1 s 71%, > 2 s 5%
+  FT to rebound, ordinary misses (>= 8 s left): median 0.9 s, mean 1.14, <= 1 s 57%, > 2 s 15%
+  proxy (down 2-3, <= 3 s) | kept, team rebounds counted (main): 0.438 [0.352, 0.526] (n=121)
+  proxy (down 2-3, <= 3 s) | live offensive rebounds only: 0.339 [0.262, 0.426] (n=121)
+  proxy (down 2-3, <= 3 s) | excluding misses whose linked rebound is not the first event: 0.432 [0.350, 0.532] (n=118)
+  proxy (down 2-3, <= 3 s) | team rebounds dropped from the sample: 0.471 [0.371, 0.578] (n=87)
+  proxy (down 2-3, <= 3 s) | share of kept rebounds that are team rebounds: 0.226 [0.120, 0.341] (n=53)
+  down 2 | kept, team rebounds counted (main): 0.494 [0.390, 0.596] (n=87)
+  down 3 | kept, team rebounds counted (main): 0.294 [0.154, 0.452] (n=34)
+  2000-01 to 2016-17 | kept, team rebounds counted (main): 0.417 [0.300, 0.533] (n=72)
+  2017-18 to 2025-26 | kept, team rebounds counted (main): 0.469 [0.321, 0.604] (n=49)
+  leading by 1 (<= 3 s), all misses | kept, team rebounds counted (main): 0.164 [0.071, 0.271] (n=55)
+  ordinary (>= 8 s) | kept, team rebounds counted (main): 0.153 [0.145, 0.161] (n=7665)
+  ordinary (>= 8 s) | share of kept rebounds that are team rebounds: 0.169 [0.147, 0.189] (n=1171)
+  leading by 1 (<= 3 s), all trips | miss rate: 0.321 [0.255, 0.392] (n=184)
+  leading by 1 (<= 3 s), all trips | expected miss rate from season FT%: 0.214 [0.201, 0.228] (n=184)
+  leading by 1 (<= 3 s), all trips | mixture-corrected deliberate-miss rate: 0.189 [-0.176, 0.600] (n=180)
+
+calibration: n=18372, Brier 0.0621 vs constant 0.1955; score-and-time baseline 0.0609; mean predicted 0.564 vs observed 0.542
+Mathematica (15.0.0 for Mac OS X ARM (64-bit) (May 26, 2026)): exact re-solve max |diff| V 3.3e-16 over 3888 states, FT 2.4e-16; break-even identity True, sign agreement True on 90 fitted states

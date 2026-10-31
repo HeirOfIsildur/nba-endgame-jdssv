@@ -1,0 +1,27 @@
+{
+	"wolframVersion":"15.0.0 for Mac OS X ARM (64-bit) (May 26, 2026)",
+	"smallInstanceStates":3888,
+	"maxAbsDiffV":3.3306690738754696e-16,
+	"ftStates":324,
+	"maxAbsDiffFT":2.42861286636753e-16,
+	"exampleV_NS_down3_BC":"744202908744530650914604825256925494449\/31250000000000000000000000000000000000000",
+	"exampleV_N":0.023814493079824980829,
+	"breakEvenIdentity":"True",
+	"reducesWhenKeepEqual":"True",
+	"identitySymbols":"{KDM, KFT, LDM, LFT, MK, QS, RDMS, RFTS}",
+	"breakEvenFormula":"rho* = (q (mk - l_dm) + (1-q) (rho_ft (k_ft - l_dm) + (1-rho_ft) (l_ft - l_dm)))\/(k_dm - l_dm)",
+	"pPreSmallInstance":"3\/20",
+	"rtoRtdSmallInstance":[
+		[
+			2
+		],
+		[
+			1,
+			2
+		],
+		"{2\/5, 3\/5}"
+	],
+	"fittedRows":90,
+	"maxIdentityResidual":1.3877787807814457e-16,
+	"signAgreementAll":true
+}
