@@ -32,8 +32,8 @@ end-game model and into decision maps that show, for every tenth of a second, sc
 choice that is optimal under the model, its win-probability margin and its sampling uncertainty, with observed coach behaviour drawn
 on top. The model is a zero-sum stochastic game on a 0.1-second grid whose principal probabilities and durations
 (rushed-shot curves by how a possession starts, rebound rates and dead-ball shares, foul, timeout and rebound times) are
-estimated, and estimation and solution are bootstrapped by game. The solver is checked against an independent exact-rational
-re-solution in \proglang{Mathematica}, and a break-even rebound rate for the deliberate miss is derived in
+estimated, and estimation and solution are bootstrapped by game. The solver is verified by an independent computation in exact
+arithmetic, and a break-even rebound rate for the deliberate miss is derived in
 closed form. Compared with a hand-set version of the same model, the estimated game removes most of the
 value of fouling when up three with 3--5 seconds left (from $+11$ to $+14$ percentage points to between $-2.2$ and
 $+2.1$, depending on how the trailing team inbounds), and makes the deliberate miss when down two worth 6.0 percentage
@@ -42,8 +42,8 @@ separately) except assuming that a deliberate miss is rebounded no more often th
 timeouts is visible in the data to the season, and coaches used both deliberate strategies more often after it.
 }
 
-\Keywords{sports analytics, dynamic programming, stochastic game, decision visualisation, bootstrap, reproducibility, \proglang{Python}}
-\Plainkeywords{sports analytics, dynamic programming, stochastic game, decision visualisation, bootstrap, reproducibility, Python}
+\Keywords{sports analytics, dynamic programming, stochastic game, decision visualisation, bootstrap, reproducibility}
+\Plainkeywords{sports analytics, dynamic programming, stochastic game, decision visualisation, bootstrap, reproducibility}
 
 \Address{
   Jan Janou\v{s}ek\\
